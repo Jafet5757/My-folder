@@ -1,9 +1,41 @@
 .bg-red{
-    background-color: #DA0037;
+    background-color: #DA0037 !important;
+}
+.bg-red-light{
+    background-color: #FFC9D7 !important;
 }
 .text-mode-dark{
-    color: white;
+    color: white !important;
 }
 .big-text{
-    font-size: 6rem;
+    font-size: 6em;
+}
+.middle-text{
+    font-size: 2em;
+}
+.text-dark{
+    color: black;
+}
+.text-grey{
+    color: #858383;
+}
+.text-white{
+    color: white;
+}
+.text-red{
+    color: #DA0037;
+}
+.size-image-middle{
+    width: 50%;
+    height: auto;
+}
+.size-image-little{
+    width: 25%;
+    height: auto;
+}
+.border-round{
+    border-radius: 20px;
+}
+i{
+    font-size: 20px;
 }

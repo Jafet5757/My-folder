@@ -1,16 +1,23 @@
 import React, {useState} from "react";
 import NavBar from './components/NavBar'
 import Start from './components/Start'
+import AboutMe from './components/AboutMe'
+import Skills from './components/Skills'
+import Education from './components/Education'
 
 function App() {
 
-  const [getDarkMode, setDarkMode] = useState(false);
-
   return (
     <div className="App">
-      <NavBar darkmode = {getDarkMode}/>
+      <NavBar/>
 
-      <Start darkmode = {getDarkMode} />
+      <Start/>
+
+      <AboutMe/>
+
+      <Skills/>
+
+      <Education/> 
     </div>
   );
 }
