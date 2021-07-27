@@ -4,6 +4,9 @@
 .bg-red-light{
     background-color: #FFC9D7 !important;
 }
+.bg-grey{
+    background-color: #EDEDED;
+}
 .text-mode-dark{
     color: white !important;
 }
@@ -36,6 +39,36 @@
 .border-round{
     border-radius: 20px;
 }
+.border-color-red{
+    border-color: #DA0037 !important;
+}
 i{
     font-size: 20px;
+}
+.card-size-aux{
+    max-width: 540px;
+}
+.banner-box{
+    border-radius: 8px;
+    height: 400px;
+    width: 100%;
+}
+.img-banner{
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 270px;
+    height: auto;
+    display: block;
+    /*visibility: hidden;
+    visibility: visible;*/
+}
+
+@media only screen and (max-width:780px){
+    .img-banner{
+        visibility: hidden;
+        display: none;
+    }
+    .img-aux{
+        display: none;
+    }
 }

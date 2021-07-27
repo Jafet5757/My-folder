@@ -2,20 +2,6 @@ import React from "react";
 
 //per refere to percenteage
 export default function Item({ skill, per }) {
-  /*const style = {
-  textAlign: "center",
-  fontWeight: "bold",
-  marginTop: "50px"
-};
- 
-// function component
-const Footer = props => {
-  return (
-    <footer style={style}>
-      <p>Copyright ©</p>
-    </footer>
-  );
-};*/
 
   return (
     <div>

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link, BrowserRouter as Router} from 'react-router-dom'
 
 export default function Start() {
   return (
@@ -13,7 +14,7 @@ export default function Start() {
             Experience in web applications, BD, WebServices, security and
             optimization.
           </p>
-          <a className="btn bg-red text-white mt-3">
+          <a className="btn bg-red text-white mt-3" href="#contact">
               Contact me &nbsp;&nbsp;<i class="far fa-paper-plane"></i>
           </a>
         </div>
