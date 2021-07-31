@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import emailjs,{ init } from 'emailjs-com';
 import Modal from './Modal'
+import $ from 'jquery'
 
 export default function Contact() {
 
@@ -15,12 +16,16 @@ export default function Contact() {
   init("user_3R4LsWXs73xLreslMqqSp");
 
   const sendMessage = () => {
-    /*emailjs.send("service_g6ye74t","template_zw2e0y8",{
+    emailjs.send("service_g6ye74t","template_zw2e0y8",{
       fromName: name+" "+lastName,
       message: message,
       company: company,
-    });*/
-      setModalActive(true);
+    });
+    setModalActive(true);
+    $('#name').val('');
+    $('#last').val('');
+    $('#from').val('');
+    $('#message').val('');
   }
 
   //functions on changes
@@ -42,6 +47,7 @@ export default function Contact() {
 
   return (
     <div className="bg-grey py-1">
+      <Modal/>
       <div className="container mt-5" id="contact">
         <div className="row my-4">
           <div className="col-md">
@@ -49,7 +55,7 @@ export default function Contact() {
             <color className="text-grey">5574751876</color>
           </div>
           <div className="col-md">
-            <input type="text" placeholder="Name" className="form-control" onChange={onChangeName} />
+            <input type="text" placeholder="Name" className="form-control" onChange={onChangeName} id="name"/>
           </div>
           <div className="col-md">
             <input
@@ -57,6 +63,7 @@ export default function Contact() {
               placeholder="Last name"
               className="form-control"
               onChange={onChangeLastName}
+              id="last"
             />
           </div>
         </div>
@@ -71,6 +78,7 @@ export default function Contact() {
               className="form-control"
               placeholder="Projet or company"
               onChange={onChangeCompany}
+              id="from"
             />
           </div>
         </div>
@@ -85,13 +93,14 @@ export default function Contact() {
               placeholder="Message"
               rows="5"
               onChange={onChangeMessage}
+              id="message"
             ></textarea>
           </div>
         </div>
         <div className="row">
           <div className="col-md-4"></div>
           <div className="col-md-8">
-            <button className="btn bg-red text-white px-4" onClick={sendMessage}>Send</button>
+            <button className="btn bg-red text-white px-4" onClick={sendMessage} type="button" data-toggle="modal" data-target="#modal">Send</button>
           </div>
         </div>
       </div>

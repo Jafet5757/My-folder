@@ -71,7 +71,7 @@ export default function Education() {
               aria-labelledby="list-home-list"
             >
               <p>
-                <b><a href="#" className="text-red">National Polytechnic Institute</a></b> <br />
+                <b><a href="https://www.ipn.mx/" className="text-red">National Polytechnic Institute</a></b> <br />
                 <p className="text-grey">Mexico, high school</p>
                 <p className="text-grey">
                   Juan de Dios Batiz Paredes N ° 9 Center for Scientific and
@@ -87,7 +87,7 @@ export default function Education() {
               aria-labelledby="list-profile-list"
             >
               <p>
-                <b><a href="#" className="text-red">Google activate</a></b>
+                <b><a href="https://learndigital.withgoogle.com/activate/courses" className="text-red">Google activate</a></b>
               </p>
               <ul className="text-grey">
                 <li>
@@ -119,7 +119,7 @@ export default function Education() {
               aria-labelledby="list-messages-list"
             >
               <p>
-							<b><a href="#" className="text-red">National Polytechnic Institute</a></b> <br />
+							<b><a href="https://www.ipn.mx/" className="text-red">National Polytechnic Institute</a></b> <br />
                 <p className="text-grey">Mexico, University</p>
                 <p className="text-grey">Computer College</p>
               </p>
