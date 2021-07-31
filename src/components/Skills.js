@@ -4,7 +4,7 @@ import Collapse from "./Collapse";
 export default function Skills() {
   return (
     <div className="container mt-5">
-      <p className="middle-text text-center">Skills</p>
+      <p className="middle-text text-center" id="skills">Skills</p>
       <div className="row">
         <div className="col-md">
           <Collapse title="Frontend Dveloper" id="fd" icon="far fa-file-code text-red middle-text" position={0}/>

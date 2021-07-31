@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="container my-5 pt-2">
-      <p className="text-center middle-text mb-5">About Me</p>
+      <p className="text-center middle-text mb-5" id="aboutMe">About Me</p>
       <div className="row">
         <div className="col-md">
           <img src="/img/circle.png" className="size-image-middle d-block mx-auto" alt="My_image"/>

@@ -18,7 +18,7 @@ export default function Banner() {
               You can contact me for projects or companies, I am a person who
               loves his work and learning in teams or independently.
             </p>
-            <a className="btn btn-light ml-5 mt-5">
+            <a className="btn btn-light ml-5 mt-5" href="#contact">
               Contact me &nbsp;&nbsp;<i class="far fa-paper-plane"></i>
             </a>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 export default function Card({img, alt, title, des, href}) {
   return (
@@ -10,9 +11,9 @@ export default function Card({img, alt, title, des, href}) {
           <p class="card-text">
             {des}
           </p>
-          <a href={href} class="btn bg-red text-white">
+          <Link to={href} class="btn bg-red text-white">
             Details
-          </a>
+          </Link>
         </div>
       </div>
     </div>
