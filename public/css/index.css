@@ -76,7 +76,14 @@ i{
         visibility: hidden;
         display: none;
     }
+    .d-contact{
+        visibility: hidden;
+        display: none;
+    }
     .img-aux{
         display: none;
+    }
+    .m-2-little{
+        margin-top: 1.5rem;
     }
 }
