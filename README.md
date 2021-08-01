@@ -6,11 +6,15 @@ You must enter this page [Kevin Jafet Moran Orozco folder](https://kevinjafet-fo
 
 ## Base technologies used
 
--React.js
--JavaScript
--Bootstrap
--HTML
--CSS
+• React.js
+
+• JavaScript
+
+• Bootstrap
+
+• HTML
+
+• CSS
 
 **Note: This project is completely created by me with the help of libraries and framweorks**
 
