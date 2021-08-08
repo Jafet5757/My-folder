@@ -1,5 +1,4 @@
 import React from "react";
-import {Link, BrowserRouter as Router} from 'react-router-dom'
 
 export default function Start() {
   return (
@@ -9,9 +8,9 @@ export default function Start() {
           <p className="big-text text-dark">
             HELLO <br /> I AM JAFET
           </p>
-          <p className="text-grey">Backend developer</p>
+          <p className="text-grey">Web developer</p>
           <p className="text-grey">
-            Experience in web applications, BD, WebServices, security and
+            Experience in web development, BBDD, WebServices, security and
             optimization.
           </p>
           <a className="btn bg-red text-white mt-3" href="#contact">
@@ -20,7 +19,7 @@ export default function Start() {
         </div>
         <div className="col-md mt-5">
           <center>
-            <img className="size-image-middle mt-md-5" src="/img/jafet.png" />
+            <img className="size-image-middle mt-md-5" src="/img/jafet.png" alt="My face"/>
           </center>
         </div>
       </div>

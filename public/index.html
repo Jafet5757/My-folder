@@ -12,6 +12,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="icon" href="/img/JKM.ico">
     <script src="https://kit.fontawesome.com/f7f3b1c29f.js" crossorigin="anonymous"></script>
     <title>My folder</title>
   </head>
@@ -33,7 +34,6 @@
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
-
             document.querySelector(this.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
             });

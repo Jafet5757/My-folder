@@ -22,7 +22,7 @@ export default function Project({
 
   return (
     <div>
-      <NavBar />
+      <NavBar about="/" skills="/" projects="/" contact="/"/>
 
       <div className="container mt-5">
         <div className="row">
@@ -82,7 +82,7 @@ export default function Project({
             <br/>
 
             <Link to="/" className="btn btn-light mb-5">
-            <i class="fas fa-arrow-left"></i> &nbsp;&nbsp;Go back
+              <i class="fas fa-arrow-left"></i> &nbsp;&nbsp;Go back
             </Link>
           </div>
         </div>

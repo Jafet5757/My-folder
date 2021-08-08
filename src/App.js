@@ -7,13 +7,12 @@ import Education from './components/Education'
 import Projects from './components/Projects'
 import Banner from './components/Banner'
 import Contact from './components/Contact'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
 
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar about="#aboutMe" skills="#skills" projects="#projects" contact="#contact"/>
 
       <Start/>
 

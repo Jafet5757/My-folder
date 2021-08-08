@@ -20,23 +20,23 @@ export default function NavBar(props) {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link text-mode-dark" href="#aboutMe">
+              <a class="nav-link text-mode-dark" href={props.about}>
                 About me
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-mode-dark" href="#skills">
+              <a class="nav-link text-mode-dark" href={props.skills}>
                 Skills
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-mode-dark" href="#projects">
+              <a class="nav-link text-mode-dark" href={props.projects}>
                 Projects
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-mode-dark" href="#contact">
-                contact
+              <a class="nav-link text-mode-dark" href={props.contact}>
+                Contact
               </a>
             </li>
           </ul>

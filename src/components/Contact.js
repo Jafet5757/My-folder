@@ -10,8 +10,6 @@ export default function Contact() {
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
 
-  const [modalIsActive, setModalActive] = useState(false);
-
   init("user_3R4LsWXs73xLreslMqqSp");
 
   const sendMessage = () => {
@@ -20,7 +18,6 @@ export default function Contact() {
       message: message,
       company: company,
     });
-    setModalActive(true);
     $("#name").val("");
     $("#last").val("");
     $("#from").val("");
