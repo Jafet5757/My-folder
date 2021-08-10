@@ -63,6 +63,10 @@ export default function Contact() {
               <i class="fab fa-github text-red mx-3"></i>
               <a href="https://github.com/Jafet5757" className="text-grey">Jafet5757</a>
             </p>
+            <p>
+              <i class="fab fa-linkedin text-red mx-3"></i>
+              <a href="https://www.linkedin.com/in/kevin-jafet-moran-orozco-692bb21a6/" className="text-grey">Kevin Moran</a>
+            </p>
           </div>
         </div>
         <div className="row my-4">
@@ -113,6 +117,10 @@ export default function Contact() {
             <p>
               <i class="fab fa-github text-red mx-3"></i>
               <a href="https://github.com/Jafet5757" className="text-grey">Jafet5757</a>
+            </p>
+            <p>
+              <i class="fab fa-linkedin text-red mx-3"></i>
+              <a href="https://www.linkedin.com/in/kevin-jafet-moran-orozco-692bb21a6/" className="text-grey">Kevin Moran</a>
             </p>
           </div>
           <div className="col-md-8">
