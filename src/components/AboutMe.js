@@ -13,7 +13,7 @@ export default function AboutMe() {
             Web developer with experience in backend and frontend, apply
             WebService and databases, knowledge in UX/UI and design.
           </p>
-          <a className="btn bg-red text-white mt-4" href="/pdf/CV.pdf">
+          <a className="btn bg-red text-white mt-4" href="/pdf/CV2.pdf">
             Download my cv &nbsp;&nbsp;
             <i class="far fa-arrow-alt-circle-down"></i>
           </a>

@@ -123,7 +123,7 @@ export default function Education() {
                 <p className="text-grey">Mexico, University</p>
                 <p className="text-grey">Computer College</p>
               </p>
-              <p className="text-grey">2021 - 2025</p>
+              <p className="text-grey">2021 - Present</p>
             </div>
             <div
               class="tab-pane fade"

@@ -49,7 +49,7 @@ export default function Contact() {
           <div className="col pl-5">
             <p>
               <i class="fas fa-phone text-red mx-3"></i>
-              <color className="text-grey">5574751876</color>
+              <color className="text-grey">+52 5539522812</color>
             </p>
             <p>
               <i class="fas fa-envelope-open-text text-red mx-3"></i>
@@ -72,7 +72,7 @@ export default function Contact() {
         <div className="row my-4">
           <div className="col-md d-contact">
             <i class="fas fa-phone text-red mx-3"></i>
-            <color className="text-grey">5574751876</color>
+            <color className="text-grey">+52 5539522812</color>
           </div>
           <div className="col-md">
             <input
